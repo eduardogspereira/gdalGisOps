@@ -1,6 +1,6 @@
 {
   "name": "gdalgisops",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A set of basic GIS tools produced with GDAL npm library.",
   "main": "src/index.js",
   "scripts": {
