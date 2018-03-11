@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb-base", "plugin:jest/recommended", "prettier"],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "no-await-in-loop": "off",
+    "no-continue": "off",
+    "no-console": "off",
+    "no-restricted-syntax": "off",
+    "prettier/prettier": "error"
+  }
+}

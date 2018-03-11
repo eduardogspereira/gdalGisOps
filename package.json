@@ -1,0 +1,35 @@
+{
+  "name": "gdalgisops",
+  "version": "1.0.0",
+  "description": "A set of basic GIS tools produced with GDAL npm library.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest int --coverage --no-cache --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardogspereira/gdalGisOps.git"
+  },
+  "keywords": ["GIS", "spatial", "GDAL", "FOSS4GIS"],
+  "author": "Eduardo G. S. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardogspereira/gdalGisOps/issues"
+  },
+  "homepage": "https://github.com/eduardogspereira/gdalGisOps#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.12.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.4.0",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "gdal": "^0.9.6",
+    "uuid": "^3.2.1"
+  }
+}
