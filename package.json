@@ -4,7 +4,7 @@
   "description": "A set of basic GIS tools produced with GDAL npm library.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest int --coverage --no-cache --runInBand"
+    "test": "GDAL_DATA=node_modules/gdal/deps/libgdal/gdal/data jest int --coverage --watch"
   },
   "repository": {
     "type": "git",

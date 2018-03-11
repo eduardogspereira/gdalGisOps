@@ -2,10 +2,10 @@ const gdalGisOps = require('../index');
 const gdal = require('gdal');
 
 const getFeatures = data => gdal.open(data).layers.get(0);
-const multilines = getFeatures('./src/tests/data/multilines.geojson');
-const multipolygons = getFeatures('./src/tests/data/multipolygons.geojson');
-const multipoints = getFeatures('./src/tests/data/multipoints.geojson');
-const linestrings = getFeatures('./src/tests/data/simplelines.shp');
+const multilines = getFeatures('./src/tests/data/multitosingle/multilines.geojson');
+const multipolygons = getFeatures('./src/tests/data/multitosingle/multipolygons.geojson');
+const multipoints = getFeatures('./src/tests/data/multitosingle/multipoints.geojson');
+const linestrings = getFeatures('./src/tests/data/multitosingle/simplelines.shp');
 
 describe('gdalMultiToSingle', () => {
   it('should output the correct single part numbers', () => {
